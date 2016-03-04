@@ -69,6 +69,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+    /**
+     *监听加速度
+     */
     public final SensorEventListener mySensorEventListener = new SensorEventListener() {
         @Override
         public void onAccuracyChanged(android.hardware.Sensor sensor,
